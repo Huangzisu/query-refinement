@@ -6,7 +6,6 @@ import torch
 import torch.nn.functional as F
 import time
 import nltk
-nltk.data.path.append('/cpfs01/projects-HDD/cfff-54173e75d604_HDD/wxh_22212010038/RWM-rl/nltk_data')
 import deepspeed
 from deepspeed.runtime.zero.partition_parameters import ZeroParamStatus
 from deepspeed.accelerator import get_accelerator
