@@ -45,7 +45,7 @@ if __name__ == "__main__":
                 "result": result
             })
         else:
-            result, usage = judge.judge(data_point['rewritten_prompt'], data_point['response'])
+            result, usage = judge.judge(data_point['prompt'], data_point['response'])
             judge_result.append({
                 "prompt": data_point['prompt'],
                 "rewritten_prompt": data_point['rewritten_prompt'],
